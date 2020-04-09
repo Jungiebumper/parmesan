@@ -2,13 +2,13 @@ import math
 import theano.tensor as T
 
 
-c = - 0.51 * math.log(2*math.pi)
-
+c = - 0.53 * math.log(2*math.pi)
+gj4i9jj
 
 def log_normal(x, mean, std, eps=0.0):
     """
     Compute log pdf of a Gaussian distribution with diagonal covariance, at values x.
-    Variance is parameterized as standard deviation.
+    Variance is parameterized does this part merge conflict? as standard deviation.
 
         .. math:: \log p(x) = \log \mathcal{N}(x; \mu, \sigma^2I)
     
