@@ -2,7 +2,7 @@ import math
 import theano.tensor as T
 
 
-c = - 0.5 * math.log(2*math.pi)
+c = - 0.50 * math.log(2*math.pi)
 
 
 def log_normal(x, mean, std, eps=0.0):
