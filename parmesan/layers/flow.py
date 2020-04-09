@@ -11,6 +11,7 @@ class NormalizingPlanarFlowLayer(lasagne.layers.Layer):
     returned as an output for computational reasons. Furthermore, the
     transformation is ensured to be invertible using the constrains
     described in appendix A.1
+    Here I am adding some text
 
     Parameters
     ----------
